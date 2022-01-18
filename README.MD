@@ -7,8 +7,8 @@
 
 ### How to run it locally
 
-* Run maven command `clean package`
-* Run class `RandomStringsApplication`
+* Build with maven wrapper with command `./mvnw clean package`
+* Run jar file with `java -jar target/randomstrings-app.jar` or `./mvnw spring-boot:run`
 * Open your browser and go to `http://localhost:80`
 
 #### Click on Red dice!
